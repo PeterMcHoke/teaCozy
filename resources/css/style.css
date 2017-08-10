@@ -1,0 +1,157 @@
+/*Page wide decorating*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* Header Detailing*/
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 150;
+  margin: 0;
+  align-items: center;
+  background-color: black;
+}
+
+header nav {
+  display: block;
+  padding-right: 40px;
+}
+
+header nav span {
+  padding:0px 10px;
+}
+
+header nav span a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  flex-shrink: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/*Content of the page*/
+#main-body-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+  margin: 0 auto;
+}
+/*First secion*/
+
+#first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("/Users/petermchoke/Desktop/Projects/Codecademy Ready/teaCozy/resources/images/img-mission-background.jpg")
+}
+
+.first-bar {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 110px;
+}
+
+.first-bar h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+/*Middle Secion (What is Steeping at Tea Cozy)*/
+#second {
+  margin-top: 30px;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.example:hover {
+  color: brown;
+}
+
+.ex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example img {
+  height: 200px;
+  width: 300px;
+  padding: 0px 15px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/*Third secion*/
+#third {
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("/Users/petermchoke/Desktop/Projects/Codecademy Ready/teaCozy/resources/images/img-locations-background.jpg")
+}
+
+.locations {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  margin: 0px 100px;
+
+}
+.third-box {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+}
+
+.third-box h4 {
+  font-weight: normal;
+}
+
+#fourth {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+}
+
+footer h5 {
+  margin-left: 20px;
+}
